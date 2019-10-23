@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
+
 
 
 @Component({
@@ -8,19 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  desafios : any = []
-  testeDesafio = {
-    name: 'Teste Desafio',
-    rank: 1,
-    quantidade: 25
-  }
+  images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
 
   constructor() {
     
    }
 
   ngOnInit() {
-    this.desafios = [this.testeDesafio]  
+    
   }
 
 
