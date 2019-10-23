@@ -9,14 +9,14 @@ import {MenubarModule} from 'primeng/menubar';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NavSuperiorComponent } from './nav-superior/nav-superior.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
+import {routing } from './app-routing.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavSuperiorComponent,
-    FooterComponent,
-    HomeComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -24,7 +24,8 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     MenubarModule,
     BrowserAnimationsModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
