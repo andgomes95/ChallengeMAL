@@ -10,22 +10,12 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { NavSuperiorComponent } from './nav-superior/nav-superior.component';
 import { FooterComponent } from './footer/footer.component';
 import {routing } from './app-routing.module';
-import { HomeModule } from './home/home.module';
-import { ComunidadeComponent } from './comunidade/comunidade.component';
-import { RankMalComponent } from './rank-mal/rank-mal.component';
-import { PerfilComponent } from './perfil/perfil.component';
-import { ComunidadeModule } from './comunidade/comunidade.module';
-import { PerfilModule } from './perfil/perfil.module';
-import { RankMalModule } from './rank-mal/rank-mal.module';
-import { DesafiosModule } from './desafios/desafios.module';
-
 
 @NgModule({
   declarations: [
     AppComponent,
     NavSuperiorComponent,
-    FooterComponent
-  ],
+    FooterComponent  ],
   imports: [
     BrowserModule,
     AlertModule.forRoot(),
