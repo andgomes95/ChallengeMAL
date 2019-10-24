@@ -7,7 +7,7 @@ const routes: Routes = [
   {path: 'home', loadChildren: './home/home.module#HomeModule'},
   {path: 'desafios', loadChildren: './desafios/desafios.module#DesafiosModule'},
   {path: 'comunidade', loadChildren: './comunidade/comunidade.module#ComunidadeModule'},
-  {path: 'rankMAL', loadChildren: './rank-mal/rank-mal.module#RankMALModule'},
+  {path: 'rankMAL', loadChildren: './rank-mal/rank-mal.module#RankMalModule'},
   {path: 'perfil', loadChildren: './perfil/perfil.module#PerfilModule'}
 
 

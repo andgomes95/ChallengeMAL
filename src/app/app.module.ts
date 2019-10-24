@@ -33,12 +33,7 @@ import { DesafiosModule } from './desafios/desafios.module';
     MenubarModule,
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
-    routing,
-    HomeModule,
-    ComunidadeModule,
-    RankMalModule,
-    PerfilModule,
-    DesafiosModule
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

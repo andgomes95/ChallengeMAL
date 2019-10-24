@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PerfilComponent } from './perfil.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent}
+  {path: '', component: PerfilComponent}
 ];
 
 @NgModule({
