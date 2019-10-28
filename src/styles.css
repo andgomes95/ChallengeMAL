@@ -33,3 +33,19 @@ html, body {
         position: fixed;
         width: 100%;
       }
+.img-fluid{
+  max-width: 100%; 
+  height: auto; 
+	display:block;
+
+}
+
+@font-face{
+  font-family: teste;
+  src: url("/assets/fonts/NewDawn.ttf");
+}
+
+@font-face{
+  font-family: ezequiel;
+  src: url("/assets/fonts/JustOldFashion.ttf");
+}

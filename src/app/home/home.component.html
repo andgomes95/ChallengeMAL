@@ -1,8 +1,8 @@
 
 <br>
 <!-- Jumbotron -->
-<div class="row  justify-content-md-center">
-<div class="jumbotron text-center text-light bg-dark text-center col-xl-10 col-md-offset-3 border border-warning rounded rounded-lg">
+<div class="container">
+<div class="jumbotron text-center text-light bg-dark text-center border border-warning rounded rounded-lg justify-content-md-center">
   
     <!-- Grid row -->
     <!-- Grid row -->
@@ -24,20 +24,20 @@
       <!-- Grid column -->
       <div class="col-xl-7 pb-2">
          <!-- Title -->
-    <h1 class="card-title text-warning">Anime Pyramid Challenge</h1>
+    <h1 class="card-title text-warning" style="font-family: teste;">{{'anime_piramid_title' | translate}}</h1>
   
     <!-- Subtitle -->
-    <h3 class="my-4 h3 justify-content-md">Venha participar desse desafio!</h3>
+    <h3 class="my-4 h3 justify-content-md">{{'juntar_desafio' | translate}}</h3>
   
-        <h5 class="card-text">O <b class="text-warning">Anime Pyramid Challenge</b> é um desafio onde o objetivo é cumprir uma piramide que é dividida em 5 camadas, sendo que cada camada possui uma tarefa diferente, com uma quantidade de animes diferentes.
-          A cada etapa, a quantia de animações passa a ser menor, porém, as missões se tornam mais desafiantes! Venha escalar está piramide com a gente!
+        <h5 class="card-text text-justify">{{'home_piramid_description' | translate}}
         </h5>
         <br>
-        <app-carousel-home-regras></app-carousel-home-regras>
       </div>
       <!-- Grid column -->
-      
-      
+      <div class="container row">
+        <div class="col-md-1"></div>
+        <app-carousel-home-regras class="col-md-10"> </app-carousel-home-regras>
+      </div>
   
     </div>
     <!-- Grid row -->
